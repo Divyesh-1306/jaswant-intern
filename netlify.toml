@@ -1,15 +1,9 @@
 [build]
-  # Build command for the frontend
   command = "cd frontend && npm run build"
-  
-  # Directory to publish
   publish = "frontend/out"
 
 [build.environment]
-  # Node.js version
   NODE_VERSION = "18"
-  
-  # NPM version
   NPM_VERSION = "9"
 
 # Redirect rules for SPA routing
